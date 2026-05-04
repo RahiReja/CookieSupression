@@ -1,0 +1,16 @@
+{
+  "name": "testing",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@cloudflare/containers": "^0.3.3",
+    "hono": "^4.12.16"
+  },
+  "devDependencies": {
+    "wrangler": "^4.4.0"
+  }
+}
