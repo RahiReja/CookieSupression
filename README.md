@@ -1,3 +1,5 @@
+## The Code is written with AI but the bug is actually there. It is just a reproducable example.
+
 ## Cloudflare Container outbound cookie test
 
 This app starts a Cloudflare Container and forwards `/test` to it. The container
